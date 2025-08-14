@@ -51,6 +51,7 @@ export default function App() {
           value={formData.name}
           onChange={handleChange}
           error={errors.name}
+          placeholder="Enter your username"
         />
         <TextField
           label="Email"
@@ -58,6 +59,7 @@ export default function App() {
           value={formData.email}
           onChange={handleChange}
           error={errors.email}
+          placeholder="Enter your email"
         />
         <RadioGroup
           label="Select your favorite movie"
